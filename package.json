@@ -1,0 +1,31 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "personal site",
+  "main": "index.js",
+  "scripts": {
+     "dev": "next",
+     "build": "next build",
+     "start": "next start",
+     "export": "npm run build && next export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e3duardo/portfolio.git"
+  },
+  "keywords": [
+    "site",
+    "personal"
+  ],
+  "author": "Eduardo Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/e3duardo/portfolio/issues"
+  },
+  "homepage": "https://github.com/e3duardo/portfolio#readme",
+  "dependencies": {
+    "next": "^8.0.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
