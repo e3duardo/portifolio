@@ -6,20 +6,24 @@ jobs:
     working_directory: ~/portifolio
     docker:
       - image: e3duardo/circleci-hugo:v3
+      - image: circleci/node
     steps:
       - checkout
-      # - restore_cache:
-      #     key: dependency-cache-{{ checksum "package.json" }}
-      # - run:
-      #     name: Running npm install
-      #     command: npm install
-      # - save_cache:
-      #     key: dependency-cache-{{ checksum "package.json" }}
-      #     paths:
-      #       - ./node_modules
-      # - run:
-      #     name: Running ls
-      #     command: ls
+      - run:
+          name: Update NPM + gh-pages
+          command: 'sudo npm install -g npm@latest gh-pages@2.0.1'
+      - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+      - run:
+          name: Running npm install
+          command: npm install
+      - save_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+          paths:
+            - ./node_modules
+      - run:
+          name: Running ls
+          command: ls
       - run:
           name: Building static files
           command: hugo -s .
