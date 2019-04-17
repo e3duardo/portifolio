@@ -5,7 +5,7 @@ jobs:
       ignore: gh-pages
     working_directory: ~/portifolio
     docker:
-      - image: e3duardo/circleci-hugo:v4
+      - image: e3duardo/circleci-hugo:v5
     steps:
       - checkout
       # - run:
