@@ -18,6 +18,9 @@ jobs:
           paths:
             - ./node_modules
       - run:
+          name: Running ls
+          command: ls
+      - run:
           name: Building static files
           command: hugo
       - store_artifacts:
