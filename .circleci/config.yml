@@ -5,13 +5,12 @@ jobs:
       ignore: gh-pages
     working_directory: ~/portifolio
     docker:
-      - image: e3duardo/circleci-hugo:v3
-      - image: circleci/node
+      - image: e3duardo/circleci-hugo:v4
     steps:
       - checkout
-      - run:
-          name: Update NPM + gh-pages
-          command: 'sudo npm install -g npm@latest gh-pages@2.0.1'
+      # - run:
+      #     name: Update NPM + gh-pages
+      #     command: 'sudo npm install -g npm@latest gh-pages@2.0.1'
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
