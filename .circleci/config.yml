@@ -8,18 +8,18 @@ jobs:
       - image: e3duardo/circleci-hugo:v3
     steps:
       - checkout
-      - restore_cache:
-          key: dependency-cache-{{ checksum "package.json" }}
-      - run:
-          name: Running npm install
-          command: npm install
-      - save_cache:
-          key: dependency-cache-{{ checksum "package.json" }}
-          paths:
-            - ./node_modules
-      - run:
-          name: Running ls
-          command: ls
+      # - restore_cache:
+      #     key: dependency-cache-{{ checksum "package.json" }}
+      # - run:
+      #     name: Running npm install
+      #     command: npm install
+      # - save_cache:
+      #     key: dependency-cache-{{ checksum "package.json" }}
+      #     paths:
+      #       - ./node_modules
+      # - run:
+      #     name: Running ls
+      #     command: ls
       - run:
           name: Building static files
           command: hugo -s .
