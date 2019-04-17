@@ -28,7 +28,7 @@ jobs:
           prefix: build
       - run:
           name: Disable jekyll builds
-          command: touch out/.nojekyll
+          command: touch public/.nojekyll
       - run:
           name: Configure github
           command: |
@@ -39,4 +39,4 @@ jobs:
             - "{{ FINGERPRINT }}"
       - run:
           name: Deploy to gh-pages branch
-          command: gh-pages --dotfiles --message "[skip ci] Update site" --dist hugo
+          command: gh-pages --dotfiles --message "[skip ci] Update site" --dist public
