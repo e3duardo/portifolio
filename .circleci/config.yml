@@ -22,7 +22,7 @@ jobs:
           command: ls
       - run:
           name: Building static files
-          command: hugo
+          command: hugo -s .
       - store_artifacts:
           path: public
           prefix: build
