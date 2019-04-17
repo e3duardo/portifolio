@@ -1,0 +1,4 @@
+baseURL = "https://github.com/e3duardo/portfolio"
+languageCode = "pt-BR"
+title = "Eduardo Santos"
+theme = "portfolio"

@@ -5,12 +5,9 @@ jobs:
       ignore: gh-pages
     working_directory: ~/portifolio
     docker:
-      - image: circleci/node:10.15.3
+      - image: e3duardo/circleci-hugo:v2
     steps:
       - checkout
-      - run:
-          name: Update NPM + gh-pages
-          command: 'sudo npm install -g npm@latest gh-pages@2.0.1'
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
@@ -22,9 +19,9 @@ jobs:
             - ./node_modules
       - run:
           name: Building static files
-          command: npm run export
+          command: hugo
       - store_artifacts:
-          path: out
+          path: public
           prefix: build
       - run:
           name: Disable jekyll builds
@@ -39,4 +36,4 @@ jobs:
             - "{{ FINGERPRINT }}"
       - run:
           name: Deploy to gh-pages branch
-          command: gh-pages --dotfiles --message "[skip ci] Update site" --dist out
+          command: gh-pages --dotfiles --message "[skip ci] Update site" --dist hugo

@@ -1,0 +1,20 @@
+@import 'normalize';
+
+/*! main.scss v0.0.1 | MIT License */
+
+html{
+	background: red;
+	box-shadow: 0 3px 6px #fff;
+	transition: all 3s ;
+}
+
+input::placeholder {
+  color: gray;
+}
+
+span{
+	display: grid;
+    transition: all .5s;
+    user-select: none;
+    background: linear-gradient(to bottom, white, black);
+}

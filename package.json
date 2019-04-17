@@ -1,31 +1,27 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "personal site",
+  "description": "My personal site",
+  "browserslist": [
+	 "cover 99.5%",
+    "dead"
+ ],
   "main": "index.js",
   "scripts": {
-     "dev": "next",
-     "build": "next build",
-     "start": "next start",
-     "export": "npm run build && next export"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/e3duardo/portfolio.git"
   },
-  "keywords": [
-    "site",
-    "personal"
-  ],
   "author": "Eduardo Santos",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/e3duardo/portfolio/issues"
   },
   "homepage": "https://github.com/e3duardo/portfolio#readme",
-  "dependencies": {
-    "next": "^8.0.4",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "postcss-cli": "^6.1.2"
   }
 }
