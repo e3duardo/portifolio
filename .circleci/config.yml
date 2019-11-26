@@ -8,9 +8,6 @@ jobs:
       - image: e3duardo/circleci-hugo:v5
     steps:
       - checkout
-      # - run:
-      #     name: Update NPM + gh-pages
-      #     command: 'sudo npm install -g npm@latest gh-pages@2.0.1'
       - restore_cache:
           key: dependency-cache-{{ checksum "package.json" }}
       - run:
@@ -21,25 +18,13 @@ jobs:
           paths:
             - ./node_modules
       - run:
-          name: Running ls
-          command: ls
-      - run:
-          name: Building static files
-          command: hugo -s .
-      - store_artifacts:
-          path: public
-          prefix: build
-      - run:
-          name: Disable jekyll builds
-          command: touch public/.nojekyll
-      - run:
           name: Configure github
           command: |
             git config user.email "e3duardo@live.com"
             git config user.name "Eduardo Santos"
       - add_ssh_keys:
           fingerprints:
-            - "{{ FINGERPRINT }}"
+            - '{{ FINGERPRINT }}'
       - run:
           name: Deploy to gh-pages branch
           command: gh-pages --dotfiles --message "[skip ci] Update site" --dist public
