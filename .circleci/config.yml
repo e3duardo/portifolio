@@ -18,7 +18,10 @@ jobs:
           paths:
             - ./node_modules
       - run:
-          name: Configure github
+          name: Building site
+          command: npm run build
+      - run:
+          name: Configuring github
           command: |
             git config user.email "e3duardo@live.com"
             git config user.name "Eduardo Santos"
@@ -27,4 +30,4 @@ jobs:
             - '{{ FINGERPRINT }}'
       - run:
           name: Deploy to gh-pages branch
-          command: gh-pages --dotfiles --message "[skip ci] Update site" --dist public
+          command: gh-pages --dotfiles --message "[skip ci] Update site" --dist build
