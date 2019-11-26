@@ -9,8 +9,6 @@ import {
   Aside,
 } from './styles';
 
-import logo from '~/assets/eduardo-santos.svg';
-
 export default function Landing() {
   return (
     <Container>
