@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactGA from 'react-ga';
 import {
   Container,
   Header,
@@ -12,6 +13,8 @@ import {
 import eduardo from '~/assets/eduardo.png';
 
 export default function Landing() {
+  ReactGA.pageview('/about/contact-us');
+
   return (
     <Container>
       <Header>
