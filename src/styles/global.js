@@ -11,8 +11,12 @@ export default createGlobalStyle`
     margin: 0;
     padding: 0;
     outline: 0;
-    box-sizing: border-box;
+
     font-family: 'Fira Code', monospace;
+    text-transform: lowercase;
+  }
+  *,*:before,*:after{
+    box-sizing: border-box;
   }
 
   *:focus{
@@ -52,9 +56,20 @@ export default createGlobalStyle`
   h3{
     font-weight: 400;
     color: #ff6633;
+    margin-bottom:10px;
+    margin-top:15px;
   }
   p{
     margin: 5px 0 15px;
     color: #666;
+  }
+  progress{
+    appearance: none;
+    width: 100%;
+    background: transparent;
+    color: #ff6633;
+    [value]{
+      background: #ff6633;
+    }
   }
 `;

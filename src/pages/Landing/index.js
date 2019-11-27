@@ -11,6 +11,8 @@ import {
 } from './styles';
 
 import Tag from '~/components/Tag';
+import Progress from '~/components/Progress';
+import ProgressLegend from '~/components/ProgressLegend';
 import eduardo from '~/assets/eduardo.png';
 
 export default function Landing() {
@@ -34,7 +36,7 @@ export default function Landing() {
         {/*  */}
         <Main>
           <h3>
-            <Tag tag="h3">about me</Tag>
+            <Tag tag="h3">About me</Tag>
           </h3>
           <p>
             <Tag tag="p">
@@ -54,16 +56,6 @@ export default function Landing() {
               website optimization and passion for the learning process.
             </Tag>
           </p>
-
-          <br />
-          <br />
-          <br />
-          <footer>
-            <Tag tag="footer">
-              please contact me at{' '}
-              <a href="mail:e3duardo@gmail.com">e3duardo[a]gmail.com</a>
-            </Tag>
-          </footer>
           {/* <h3>
             &#123;&#47;&#42;<span>education</span>&#42;&#47;&#125;
           </h3>
@@ -74,10 +66,18 @@ export default function Landing() {
         <Aside>
           {/* <h3>
             &#123;&#47;&#42;<span>contact</span>&#42;&#47;&#125;
-          </h3>
+          </h3> */}
           <h3>
-            &#123;&#47;&#42;<span>skills</span>&#42;&#47;&#125;
+            <Tag tag="h3">Skills</Tag>
           </h3>
+          <Progress tick={94}>HTML</Progress>
+          <Progress tick={90}>CSS</Progress>
+          <Progress tick={69}>ES6</Progress>
+          <Progress tick={55}>React</Progress>
+          <Progress tick={70}>Java</Progress>
+          <Progress tick={5}>Clojure</Progress>
+          <ProgressLegend />
+          {/*
           <h3>
             &#123;&#47;&#42;<span>languages</span>&#42;&#47;&#125;
           </h3>
@@ -86,6 +86,15 @@ export default function Landing() {
           </h3> */}
         </Aside>
       </Row>
+      <br />
+      <br />
+      <br />
+      <footer>
+        <Tag tag="footer">
+          please contact me at{' '}
+          <a href="mail:e3duardo@gmail.com">e3duardo[a]gmail.com</a>
+        </Tag>
+      </footer>
     </Container>
   );
 }

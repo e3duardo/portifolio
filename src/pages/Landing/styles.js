@@ -14,13 +14,12 @@ export const Container = styled.div`
 export const Header = styled.div`
   position: relative;
   padding: ${imageSize / 2 + 10}px 10px 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
   border-bottom: 3px double #efefef;
   h1,
   h2 {
     color: #444;
-    /* text-transform: uppercase; */
     font-weight: 700;
     font-size: 36px;
     span {
@@ -67,7 +66,9 @@ export const Main = styled.div`
 `;
 export const Aside = styled.div`
   width: 40%;
+  margin-left: 20px;
   @media (max-width: 700px) {
     width: 100%;
+    margin-left: 0;
   }
 `;
