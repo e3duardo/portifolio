@@ -42,7 +42,7 @@ export const ImagePlace = styled.div`
   transform: translateX(-50%);
   background: #929292;
 `;
-export const Image = styled.div`
+export const Image = styled.img`
   border-radius: 50%;
   margin: 5px;
   width: calc(100% - 10px);

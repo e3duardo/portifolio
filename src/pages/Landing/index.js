@@ -9,12 +9,14 @@ import {
   Aside,
 } from './styles';
 
+import eduardo from '~/assets/eduardo.png';
+
 export default function Landing() {
   return (
     <Container>
       <Header>
         <ImagePlace>
-          <Image />
+          <Image src={eduardo} />
         </ImagePlace>
         <h1>hello,</h1>
         <h2>
