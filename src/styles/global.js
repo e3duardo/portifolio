@@ -46,12 +46,8 @@ export default createGlobalStyle`
   }
 
   h3{
-    color: rgba(255, 102, 51,.3);
     font-weight: 400;
-    span{
-      color: #ff6633;
-
-    }
+    color: #ff6633;
   }
   p{
     margin: 5px 0 15px;

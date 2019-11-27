@@ -10,10 +10,13 @@ import {
   Aside,
 } from './styles';
 
+import Tag from '~/components/Tag';
 import eduardo from '~/assets/eduardo.png';
 
 export default function Landing() {
-  ReactGA.pageview('/about/contact-us');
+  if (process.env.NODE_ENV !== 'development') {
+    ReactGA.pageview('/');
+  }
 
   return (
     <Container>
@@ -31,23 +34,46 @@ export default function Landing() {
         {/*  */}
         <Main>
           <h3>
-            &#123;&#47;&#42;<span>about me</span>&#42;&#47;&#125;
+            <Tag tag="h3">about me</Tag>
           </h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Repellendus, non, dolorem, cumque distinctio magni quam expedita
-            velit laborum sunt amet facere tempora ut fuga aliquam ad asperiores
-            voluptatem dolorum! Quasi.
+            <Tag tag="p">
+              Graduating in Information Systems, I seek opportunity to share
+              learning and learn.
+            </Tag>
           </p>
-          <h3>
+          <p>
+            <Tag tag="p">
+              As a Systems Analyst, I have 4 years developing Java and web
+              technologies.
+            </Tag>
+          </p>
+          <p>
+            <Tag tag="p">
+              Knowledge in Java and Hibernate. Special attention to React,
+              website optimization and passion for the learning process.
+            </Tag>
+          </p>
+
+          <br />
+          <br />
+          <br />
+          <br />
+          <footer>
+            <Tag tag="footer">
+              please contact me at{' '}
+              <a href="mail:e3duardo@gmail.com">e3duardo[a]gmail.com</a>
+            </Tag>
+          </footer>
+          {/* <h3>
             &#123;&#47;&#42;<span>education</span>&#42;&#47;&#125;
           </h3>
           <h3>
             &#123;&#47;&#42;<span>experiences</span>&#42;&#47;&#125;
-          </h3>
+          </h3> */}
         </Main>
         <Aside>
-          <h3>
+          {/* <h3>
             &#123;&#47;&#42;<span>contact</span>&#42;&#47;&#125;
           </h3>
           <h3>
@@ -58,7 +84,7 @@ export default function Landing() {
           </h3>
           <h3>
             &#123;&#47;&#42;<span>hobies</span>&#42;&#47;&#125;
-          </h3>
+          </h3> */}
         </Aside>
       </Row>
     </Container>
