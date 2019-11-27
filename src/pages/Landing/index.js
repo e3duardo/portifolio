@@ -58,7 +58,6 @@ export default function Landing() {
           <br />
           <br />
           <br />
-          <br />
           <footer>
             <Tag tag="footer">
               please contact me at{' '}

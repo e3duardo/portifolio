@@ -25,6 +25,10 @@ export default createGlobalStyle`
     background: #929292;
   }
 
+  #root{
+    padding: 10px;
+  }
+
   body: {
     -webkit-font-smoothing: antialiased;
   }

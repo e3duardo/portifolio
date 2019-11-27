@@ -37,7 +37,7 @@ export const ImagePlace = styled.div`
   position: absolute;
   width: ${imageSize}px;
   height: ${imageSize}px;
-  top: -${imageSize / 2}px;
+  top: -${imageSize / 2 + 15}px;
   left: 50%;
   transform: translateX(-50%);
   background: #929292;
@@ -58,10 +58,16 @@ export const Image = styled.img`
 
 export const Row = styled.div`
   display: flex;
+  @media (max-width: 700px) {
+    flex-wrap: wrap;
+  }
 `;
 export const Main = styled.div`
   flex: 1;
 `;
 export const Aside = styled.div`
   width: 40%;
+  @media (max-width: 700px) {
+    width: 100%;
+  }
 `;
