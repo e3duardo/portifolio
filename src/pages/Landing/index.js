@@ -74,7 +74,8 @@ export default function Landing() {
           <Progress tick={90}>CSS</Progress>
           <Progress tick={69}>ES6</Progress>
           <Progress tick={55}>React</Progress>
-          <Progress tick={70}>Java</Progress>
+          <Progress tick={85}>Java</Progress>
+          <Progress tick={75}>Hibernate</Progress>
           <Progress tick={5}>Clojure</Progress>
           <ProgressLegend />
           {/*
