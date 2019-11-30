@@ -27,6 +27,8 @@ export default createGlobalStyle`
     height: 100%;
 
     background: #929292;
+    line-height: 1.3rem;
+    text-align: justify;
   }
 
   #root{
@@ -57,7 +59,7 @@ export default createGlobalStyle`
     font-weight: 400;
     color: #ff6633;
     margin-bottom:10px;
-    margin-top:15px;
+    margin-top:20px;
   }
   p{
     margin: 5px 0 15px;
