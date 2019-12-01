@@ -4,7 +4,7 @@ import ReactGA from 'react-ga';
 import { Row, Main, Aside } from './styles';
 
 import About from './about';
-import Education from './education';
+// import Education from './education';
 import Experiences from './experiences';
 import Contacts from './contacts';
 import Skills from './skills';
