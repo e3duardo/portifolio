@@ -1,11 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
+import PropTypes from 'prop-types';
 
-const Span = styled.span`
-  opacity: 0.25;
-`;
+import { Span } from './styles';
 
-export default function Tag({ children, tag, close }) {
+function Tag({ children, tag, close }) {
   return (
     <>
       <Span>{!close ? `<${tag}>` : tag}</Span>
@@ -15,4 +13,17 @@ export default function Tag({ children, tag, close }) {
   );
 }
 
-// {/* &#123;&#47;&#42;<span>about me</span>&#42;&#47;&#125; */}
+Tag.propTypes = {
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node,
+  ]).isRequired,
+  tag: PropTypes.string.isRequired,
+  close: PropTypes.string,
+};
+
+Tag.defaultProps = {
+  close: '',
+};
+
+export default Tag;

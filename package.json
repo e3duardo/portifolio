@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "@rocketseat/unform": "^1.5.1",
+    "airbnb-prop-types": "^2.15.0",
     "axios": "^0.19.0",
     "babel-plugin-root-import": "^6.4.1",
     "bootstrap": "^4.3.1",

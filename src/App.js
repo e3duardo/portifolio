@@ -5,6 +5,7 @@ import ReactGA from 'react-ga';
 
 import './config/ReactotronConfig';
 import Routes from './routes';
+import DefaultLayout from './pages/_layouts/default';
 
 import GlobalStyle from './styles/global';
 
@@ -18,7 +19,9 @@ function App() {
   return (
     <BrowserRouter>
       <GlobalStyle />
-      <Routes />
+      <DefaultLayout>
+        <Routes />
+      </DefaultLayout>
       <ToastContainer autoClose={3000} />
     </BrowserRouter>
   );

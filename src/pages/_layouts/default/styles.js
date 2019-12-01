@@ -29,6 +29,11 @@ export const Header = styled.div`
   h2 {
     font-size: 22px;
   }
+  a {
+    color: #444;
+    font-style: italic;
+    font-size: 0.8rem;
+  }
 `;
 
 export const ImagePlace = styled.div`
@@ -53,42 +58,4 @@ export const Image = styled.img`
     rgba(146, 146, 146, 1) 100%
   );
   /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.26); */
-`;
-
-export const Row = styled.div`
-  display: flex;
-  @media (max-width: 700px) {
-    flex-wrap: wrap;
-  }
-`;
-export const Main = styled.div`
-  flex: 1;
-`;
-export const Aside = styled.div`
-  width: 40%;
-  margin-left: 40px;
-  @media (max-width: 700px) {
-    width: 100%;
-    margin-left: 0;
-  }
-`;
-
-export const HobieList = styled.ul`
-  list-style: none;
-  display: flex;
-`;
-export const Hobie = styled.li`
-  background: #00b389;
-  color: #fff;
-  margin: 5px;
-  padding: 2px 10px 2px 5px;
-  font-size: 0.8rem;
-  border-radius: 4px;
-  display: flex;
-  align-items: center;
-  img {
-    width: 1rem;
-    height: 1rem;
-    margin-right: 5px;
-  }
 `;

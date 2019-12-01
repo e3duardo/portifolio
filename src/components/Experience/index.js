@@ -1,8 +1,9 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import { Container, Company, Description, Title } from './styles';
 
-export default function Experience({ company, season, job, children }) {
+function Experience({ children, company, season, job }) {
   return (
     <Container>
       <Company>
@@ -16,3 +17,15 @@ export default function Experience({ company, season, job, children }) {
     </Container>
   );
 }
+
+Experience.propTypes = {
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node,
+  ]).isRequired,
+  company: PropTypes.string.isRequired,
+  season: PropTypes.string.isRequired,
+  job: PropTypes.string.isRequired,
+};
+
+export default Experience;
