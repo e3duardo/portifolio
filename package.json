@@ -1,5 +1,7 @@
 {
-  "name": "modulo07",
+  "name": "eduardosantos.me",
+  "author": "Eduardo Santos",
+  "homepage": "https://eduardosantos.me",
   "version": "0.1.0",
   "private": true,
   "scripts": {

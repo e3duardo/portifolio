@@ -61,6 +61,9 @@ export default createGlobalStyle`
     margin-bottom:10px;
     margin-top:20px;
   }
+  h3.mt-3{
+    margin-top: 30px;
+  }
   p{
     margin: 5px 0 15px;
     color: #666;
@@ -73,5 +76,9 @@ export default createGlobalStyle`
     [value]{
       background: #ff6633;
     }
+  }
+
+  h1,h2{
+    line-height: 1.4em;
   }
 `;

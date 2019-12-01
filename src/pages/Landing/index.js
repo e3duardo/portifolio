@@ -8,13 +8,20 @@ import {
   Row,
   Main,
   Aside,
+  HobieList,
+  Hobie,
 } from './styles';
 
 import Tag from '~/components/Tag';
 import Progress from '~/components/Progress';
 import ProgressLegend from '~/components/ProgressLegend';
 import Experience from '~/components/Experience';
+import Language from '~/components/Language';
 import eduardo from '~/assets/eduardo.png';
+
+import code from '~/assets/laptop-code-duotone.svg';
+import moto from '~/assets/motorcycle-duotone.svg';
+import paw from '~/assets/paw-duotone.svg';
 
 export default function Landing() {
   if (process.env.NODE_ENV !== 'development') {
@@ -41,22 +48,16 @@ export default function Landing() {
               <Tag tag="h3">About me</Tag>
             </h3>
             <p>
-              <Tag tag="p">
-                Graduating in Information Systems, I seek opportunity to share
-                learning and learn.
-              </Tag>
+              Graduating in Information Systems, I seek opportunity to share
+              learning and learn.
             </p>
             <p>
-              <Tag tag="p">
-                As a Systems Analyst, I have 4 years developing Java and web
-                technologies.
-              </Tag>
+              As a Systems Analyst, I have 4 years developing Java and web
+              technologies.
             </p>
             <p>
-              <Tag tag="p">
-                Knowledge in Java and Hibernate. Special attention to React,
-                website optimization and passion for the learning process.
-              </Tag>
+              Knowledge in Java and Hibernate. Special attention to React,
+              website optimization and passion for the learning process.
             </p>
           </div>
           {/* <div>
@@ -65,7 +66,7 @@ export default function Landing() {
             </h3>
           </div> */}
           <div>
-            <h3>
+            <h3 className="mt-3">
               <Tag tag="h3">Experiences</Tag>
             </h3>
             <Experience
@@ -108,10 +109,15 @@ export default function Landing() {
           </div>
         </Main>
         <Aside>
-          {/* <h3>
-            &#123;&#47;&#42;<span>contact</span>&#42;&#47;&#125;
-          </h3> */}
           <h3>
+            <Tag tag="h3">Contact</Tag>
+          </h3>
+          <p>
+            please contact me at{' '}
+            <a href="mail:e3duardo@gmail.com">e3duardo[a]gmail.com</a>
+          </p>
+
+          <h3 className="mt-3">
             <Tag tag="h3">Skills</Tag>
           </h3>
           <Progress tick={94}>HTML</Progress>
@@ -122,24 +128,34 @@ export default function Landing() {
           <Progress tick={75}>Hibernate</Progress>
           <Progress tick={5}>Clojure</Progress>
           <ProgressLegend />
-          {/*
-          <h3>
-            &#123;&#47;&#42;<span>languages</span>&#42;&#47;&#125;
+
+          <h3 className="mt-3">
+            <Tag tag="h3">Languages</Tag>
+            <Language star={5}>Portuguese </Language>
+            <Language star={3}>English </Language>
           </h3>
-          <h3>
-            &#123;&#47;&#42;<span>hobies</span>&#42;&#47;&#125;
-          </h3> */}
+          <h3 className="mt-3">
+            <Tag tag="h3">Hobies</Tag>
+            <HobieList>
+              <Hobie>
+                <img src={moto} alt="I like" />
+                Motorcycle
+              </Hobie>
+              <Hobie>
+                <img src={paw} alt="I like" />
+                Dog
+              </Hobie>
+              <Hobie>
+                <img src={code} alt="I like" />
+                Programming
+              </Hobie>
+            </HobieList>
+          </h3>
         </Aside>
       </Row>
       <br />
       <br />
       <br />
-      <footer>
-        <Tag tag="footer">
-          please contact me at{' '}
-          <a href="mail:e3duardo@gmail.com">e3duardo[a]gmail.com</a>
-        </Tag>
-      </footer>
     </Container>
   );
 }
