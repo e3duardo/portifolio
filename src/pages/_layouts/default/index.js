@@ -11,7 +11,7 @@ function DefaultLayout({ children, location: { pathname } }) {
     <Container>
       <Header>
         <ImagePlace>
-          <Image src={eduardo} />
+          <Image src={eduardo} alt="Eduardo Santos" />
         </ImagePlace>
         <h1>hello,</h1>
         <h2>
@@ -33,6 +33,7 @@ DefaultLayout.propTypes = {
     PropTypes.arrayOf(PropTypes.node),
     PropTypes.node,
   ]).isRequired,
+  // location: PropTypes.string.isRequired,
 };
 
 export default withRouter(DefaultLayout);
