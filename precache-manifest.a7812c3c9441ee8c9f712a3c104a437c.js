@@ -1,31 +1,43 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dbe2393c854edb36a5956a01a8133a07",
+    "revision": "6daee9c04f3c42075341ddbf5e7529a6",
     "url": "/index.html"
   },
   {
-    "revision": "9ed024d8f5836061d53f",
+    "revision": "60f661c0ed09000812ee",
     "url": "/static/css/2.07b170e0.chunk.css"
   },
   {
-    "revision": "9ed024d8f5836061d53f",
-    "url": "/static/js/2.e630926a.chunk.js"
+    "revision": "60f661c0ed09000812ee",
+    "url": "/static/js/2.ff75e0b8.chunk.js"
   },
   {
-    "revision": "98485a0d6a13c3d9a675",
-    "url": "/static/js/main.4d843987.chunk.js"
+    "revision": "e9cb536ec45450bef916",
+    "url": "/static/js/main.2844efbf.chunk.js"
   },
   {
-    "revision": "bdd6f5e09394c491e655",
-    "url": "/static/js/runtime-main.c6627084.js"
+    "revision": "cebc8ecb176d951d2c6b",
+    "url": "/static/js/runtime-main.19d788b4.js"
   },
   {
     "revision": "2a0da593851f0ba46d23b616a8013a50",
     "url": "/static/media/eduardo.2a0da593.png"
   },
   {
+    "revision": "e73f08d96e08ed03c5812310fe8528dc",
+    "url": "/static/media/envelope-open-text-duotone.e73f08d9.svg"
+  },
+  {
+    "revision": "c01aaa07bdfc1c0f87e9c03c39d77cc7",
+    "url": "/static/media/github-square-brands.c01aaa07.svg"
+  },
+  {
     "revision": "3ed120977269a05759ac0f520fec344d",
     "url": "/static/media/laptop-code-duotone.3ed12097.svg"
+  },
+  {
+    "revision": "4cdbfc23edf225ea10c9945bedbf87c2",
+    "url": "/static/media/linkedin-brands.4cdbfc23.svg"
   },
   {
     "revision": "ad318f57e72c96b3b38ff0c2a9d7cb60",
