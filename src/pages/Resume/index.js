@@ -6,7 +6,7 @@ import { Row, Main, Aside } from './styles';
 import About from './about';
 import Education from './education';
 import Experiences from './experiences';
-import Contact from './contact';
+import Contacts from './contacts';
 import Skills from './skills';
 import Languages from './languages';
 import Hobbies from './hobbies';
@@ -20,11 +20,11 @@ function Resume() {
     <Row>
       <Main>
         <About />
-        <Education />
+        {/* <Education /> */}
         <Experiences />
       </Main>
       <Aside>
-        <Contact />
+        <Contacts />
         <Skills />
         <Languages />
         <Hobbies />
