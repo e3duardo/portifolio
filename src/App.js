@@ -1,6 +1,6 @@
 import React from 'react';
 import { ToastContainer } from 'react-toastify';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import ReactGA from 'react-ga';
 
 import './config/ReactotronConfig';
@@ -17,13 +17,13 @@ if (process.env.NODE_ENV !== 'development') {
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <GlobalStyle />
       <DefaultLayout>
         <Routes />
       </DefaultLayout>
       <ToastContainer autoClose={3000} />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
