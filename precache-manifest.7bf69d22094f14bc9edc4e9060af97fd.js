@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b29c85c283b004daf5395384b3ff898c",
+    "revision": "45f725f535dd2da537bd7211f64032a3",
     "url": "/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.a1bb84f1.chunk.js"
   },
   {
-    "revision": "bbf799ad235d92eb24b7",
-    "url": "/static/js/main.d09a4684.chunk.js"
+    "revision": "cc4187fdea0f5a877d77",
+    "url": "/static/js/main.a96de46c.chunk.js"
   },
   {
     "revision": "cebc8ecb176d951d2c6b",
@@ -24,8 +24,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/backpack-duotone.fa123f67.svg"
   },
   {
-    "revision": "8f9fa54b4f55c0c23f869e7f7915ace9",
-    "url": "/static/media/eduardo.8f9fa54b.png"
+    "revision": "5bc2893298259099ff86095440a00c16",
+    "url": "/static/media/eduardo.5bc28932.png"
   },
   {
     "revision": "e73f08d96e08ed03c5812310fe8528dc",
