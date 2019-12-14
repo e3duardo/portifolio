@@ -17,7 +17,7 @@ if (process.env.NODE_ENV !== 'development') {
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter basename="/">
       <GlobalStyle />
       <DefaultLayout>
         <Routes />
