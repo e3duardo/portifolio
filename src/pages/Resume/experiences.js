@@ -14,7 +14,7 @@ export default function Experi() {
         season="2019 - today"
         job="Computing instructor"
       >
-        I started teaching, to pass some of my knowledge forward. Today I am
+        I started teaching, to pass some of my knowledge forward. Today I'm
         teaching basic computer
       </Experience>
       <Experience
