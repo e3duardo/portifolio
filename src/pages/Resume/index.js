@@ -20,14 +20,14 @@ function Resume() {
     <Row>
       <Main>
         <About />
-        {/* <Education /> */}
         <Experiences />
+        {/* <Education /> */}
       </Main>
       <Aside>
-        <Contacts />
         <Skills />
         <Languages />
         <Hobbies />
+        <Contacts />
       </Aside>
     </Row>
   );

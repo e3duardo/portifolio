@@ -10,7 +10,7 @@ export const Main = styled.div`
   flex: 1;
 `;
 export const Aside = styled.div`
-  width: 40%;
+  width: 30%;
   margin-left: 40px;
   @media (max-width: 700px) {
     width: 100%;

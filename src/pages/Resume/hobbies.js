@@ -7,6 +7,9 @@ import Hobbie from '~/components/Hobbie';
 import code from '~/assets/laptop-code-duotone.svg';
 import moto from '~/assets/motorcycle-duotone.svg';
 import paw from '~/assets/paw-duotone.svg';
+import backpack from '~/assets/backpack-duotone.svg';
+import heart from '~/assets/heart-solid.svg';
+import headphones from '~/assets/headphones-alt-duotone.svg';
 
 export default function Hobbies() {
   return (
@@ -15,9 +18,12 @@ export default function Hobbies() {
         <Tag tag="h3">Hobies</Tag>
       </h3>
       <HobbieList>
-        <Hobbie icon={moto}>Motorcycle</Hobbie>
+        <Hobbie icon={heart}>Family</Hobbie>
         <Hobbie icon={paw}>Dog</Hobbie>
-        <Hobbie icon={code}>Programming</Hobbie>
+        <Hobbie icon={code}>Programing</Hobbie>
+        <Hobbie icon={moto}>Motorcycle</Hobbie>
+        <Hobbie icon={backpack}>Travel</Hobbie>
+        <Hobbie icon={headphones}>Music</Hobbie>
       </HobbieList>
     </div>
   );

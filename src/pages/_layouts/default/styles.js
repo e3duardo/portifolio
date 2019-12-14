@@ -4,7 +4,7 @@ const imageSize = 150;
 
 export const Container = styled.div`
   background: #fdfdfd;
-  max-width: 1000px;
+  max-width: 1200px;
   height: auto;
   margin: ${imageSize / 2}px auto 20px;
   padding: 15px;

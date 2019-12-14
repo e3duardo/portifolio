@@ -12,6 +12,7 @@ export const Container = styled.li`
   img {
     width: 1rem;
     height: 1rem;
-    margin-right: 5px;
+    margin-right: 8px;
+    margin-left: 4px;
   }
 `;

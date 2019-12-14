@@ -5,7 +5,7 @@ export const Container = styled.div`
 `;
 
 export const Company = styled.div`
-  width: 35%;
+  width: 31%;
   min-width: 100px;
 `;
 export const Description = styled.div`

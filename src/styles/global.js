@@ -27,7 +27,7 @@ export default createGlobalStyle`
     height: 100%;
 
     background: #929292;
-    line-height: 1.3rem;
+    line-height: 1.4rem;
     text-align: justify;
   }
 
