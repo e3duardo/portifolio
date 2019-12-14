@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c3f8def55b851cb62a98b6c84483946d",
+    "revision": "b29c85c283b004daf5395384b3ff898c",
     "url": "/index.html"
   },
   {
-    "revision": "aa600c943a7b9c03e3fa",
+    "revision": "8b9523960912c169a3d9",
     "url": "/static/css/2.07b170e0.chunk.css"
   },
   {
-    "revision": "aa600c943a7b9c03e3fa",
-    "url": "/static/js/2.e6d6f504.chunk.js"
+    "revision": "8b9523960912c169a3d9",
+    "url": "/static/js/2.a1bb84f1.chunk.js"
   },
   {
-    "revision": "2464ee6d42c6ed83d0d2",
-    "url": "/static/js/main.250182cf.chunk.js"
+    "revision": "bbf799ad235d92eb24b7",
+    "url": "/static/js/main.d09a4684.chunk.js"
   },
   {
     "revision": "cebc8ecb176d951d2c6b",
     "url": "/static/js/runtime-main.19d788b4.js"
+  },
+  {
+    "revision": "fa123f676825edc965871349079152a5",
+    "url": "/static/media/backpack-duotone.fa123f67.svg"
   },
   {
     "revision": "8f9fa54b4f55c0c23f869e7f7915ace9",
@@ -30,6 +34,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c01aaa07bdfc1c0f87e9c03c39d77cc7",
     "url": "/static/media/github-square-brands.c01aaa07.svg"
+  },
+  {
+    "revision": "0932dfbb7c4e238e331bd1aacbaffbec",
+    "url": "/static/media/headphones-alt-duotone.0932dfbb.svg"
+  },
+  {
+    "revision": "4afb72bca620e2c387db305c5263f4b8",
+    "url": "/static/media/heart-solid.4afb72bc.svg"
   },
   {
     "revision": "3ed120977269a05759ac0f520fec344d",
