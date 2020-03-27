@@ -14,3 +14,5 @@ Once in a while, I'll refactor this project until I think it's good enough, whic
 
 ## Why English? If I'm a Brazilian
 I'm not fluent in English, but everything I research about technology, I do in English. So if I produce some content, I think it's fair to be in English too, but soon everything you do will also have its proper Portuguese version.
+
+just a test
