@@ -1,8 +1,7 @@
 # Welcome to my portfolio
-[![CircleCI](https://circleci.com/gh/e3duardo/portfolio.svg?style=svg)](https://circleci.com/gh/e3duardo/portfolio)
 ![Licence](https://img.shields.io/badge/Licence-MIT-blue)
 
-I created this repository and made it public so that you here can see how I write my code in ReactJS. I am currently using CircleCI for continuous integration, and by clicking on the CircleCI badge, you can see more about the building steps.
+I created this repository and made it public so that you here can see how I write my code in ReactJS. I am currently using GitHub Actions for continuous integration.
 
 I am not using any methodology for naming my commits. And ReactJs was not my first choice to create this site, I have already used Hugo, Jekyll and NextJs, but I chose to do with "Pure" React.
 
