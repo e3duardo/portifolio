@@ -19,10 +19,10 @@ function DefaultLayout({ children, location: { pathname } }) {
           my name is <span>Eduardo Santos</span> and this is my{' '}
           {pathname === '/portfolio' ? 'portfolio' : 'resume'}
         </h2>
-        <p>
+        {/* <p>
           <NavLink to="/">resume</NavLink> |{' '}
-          {/* <NavLink to="/portfolio">portfolio</NavLink> */}
-        </p>
+          <NavLink to="/portfolio">portfolio</NavLink>
+        </p> */}
       </Header>
       {children}
     </Container>
