@@ -21,7 +21,7 @@ function DefaultLayout({ children, location: { pathname } }) {
         </h2>
         <p>
           <NavLink to="/">resume</NavLink> |{' '}
-          <NavLink to="/portfolio">portfolio</NavLink>
+          {/* <NavLink to="/portfolio">portfolio</NavLink> */}
         </p>
       </Header>
       {children}
