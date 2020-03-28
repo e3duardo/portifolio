@@ -1,5 +1,5 @@
 # Welcome to my portfolio
-![Licence](https://img.shields.io/badge/Licence-MIT-blue)
+![Licence](https://img.shields.io/badge/Licence-MIT-blue)![Licence](https://img.shields.io/badge/Author-Eduardo%20Santos-blue)
 
 I created this repository and made it public so that you here can see how I write my code in ReactJS. I am currently using GitHub Actions for continuous integration.
 
