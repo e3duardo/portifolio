@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.11f5083e.chunk.js",
-    "main.js.map": "/static/js/main.11f5083e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c6627084.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c6627084.js.map",
-    "static/css/2.07b170e0.chunk.css": "/static/css/2.07b170e0.chunk.css",
-    "static/js/2.62d8502b.chunk.js": "/static/js/2.62d8502b.chunk.js",
-    "static/js/2.62d8502b.chunk.js.map": "/static/js/2.62d8502b.chunk.js.map",
+    "main.js": "/static/js/main.c80e8984.chunk.js",
+    "main.js.map": "/static/js/main.c80e8984.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.07bed2d5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.07bed2d5.js.map",
+    "static/css/2.bac20b9e.chunk.css": "/static/css/2.bac20b9e.chunk.css",
+    "static/js/2.ed5f3f7f.chunk.js": "/static/js/2.ed5f3f7f.chunk.js",
+    "static/js/2.ed5f3f7f.chunk.js.map": "/static/js/2.ed5f3f7f.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.99f7aaf8aeda86375bcf3ef499082568.js": "/precache-manifest.99f7aaf8aeda86375bcf3ef499082568.js",
+    "precache-manifest.20ab056ad40483e35bb6fb74696640dd.js": "/precache-manifest.20ab056ad40483e35bb6fb74696640dd.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.07b170e0.chunk.css.map": "/static/css/2.07b170e0.chunk.css.map",
+    "static/css/2.bac20b9e.chunk.css.map": "/static/css/2.bac20b9e.chunk.css.map",
+    "static/js/2.ed5f3f7f.chunk.js.LICENSE.txt": "/static/js/2.ed5f3f7f.chunk.js.LICENSE.txt",
     "static/media/backpack-duotone.svg": "/static/media/backpack-duotone.fa123f67.svg",
     "static/media/eduardo.png": "/static/media/eduardo.d677be02.png",
     "static/media/envelope-open-text-duotone.svg": "/static/media/envelope-open-text-duotone.e73f08d9.svg",
@@ -23,5 +24,11 @@
     "static/media/paw-duotone.svg": "/static/media/paw-duotone.2c9aa885.svg",
     "static/media/star-regular.svg": "/static/media/star-regular.cc29cd8c.svg",
     "static/media/star-solid.svg": "/static/media/star-solid.434c1294.svg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.07bed2d5.js",
+    "static/css/2.bac20b9e.chunk.css",
+    "static/js/2.ed5f3f7f.chunk.js",
+    "static/js/main.c80e8984.chunk.js"
+  ]
 }
