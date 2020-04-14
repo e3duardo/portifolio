@@ -9,6 +9,9 @@ export const Container = styled.div`
   margin: ${imageSize / 2}px auto 20px;
   padding: 15px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.26);
+  @media print {
+    box-shadow: none;
+  }
 `;
 
 export const Header = styled.div`
@@ -22,9 +25,6 @@ export const Header = styled.div`
     color: #444;
     font-weight: 700;
     font-size: 36px;
-    span {
-      color: #ff6633;
-    }
   }
   h2 {
     font-size: 22px;
@@ -33,6 +33,28 @@ export const Header = styled.div`
     color: #444;
     font-style: italic;
     font-size: 0.8rem;
+  }
+
+  @media print {
+    padding-top: 10px;
+  }
+`;
+
+export const Highlight = styled.span`
+  color: #ff6633;
+  @media print {
+    font-size: 3rem;
+    display: block;
+    width: 15rem;
+    line-height: 3rem;
+    text-align: left;
+    margin-left: 100px;
+  }
+`;
+
+export const NoPrint = styled.span`
+  @media print {
+    display: none;
   }
 `;
 
@@ -45,6 +67,13 @@ export const ImagePlace = styled.div`
   left: 50%;
   transform: translateX(-50%);
   background: #929292;
+  @media print {
+    width: 100px;
+    height: 100px;
+    top: 5px;
+    left: 50px;
+    background: no-repeat;
+  }
 `;
 export const Image = styled.img`
   border-radius: 50%;

@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.li`
+  -webkit-print-color-adjust: exact;
   background: #00b389;
   color: #fff;
   margin: 5px;

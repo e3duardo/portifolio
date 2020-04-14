@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Tag from '~/components/Tag';
 import ContactList from '~/components/ContactList';
@@ -8,9 +9,9 @@ import email from '~/assets/envelope-open-text-duotone.svg';
 import linkedin from '~/assets/linkedin-brands.svg';
 import github from '~/assets/github-square-brands.svg';
 
-export default function Contacts() {
+export default function Contacts({ className }) {
   return (
-    <div>
+    <div className={className}>
       <h3>
         <Tag tag="h3">Contact</Tag>
       </h3>
@@ -28,3 +29,11 @@ export default function Contacts() {
     </div>
   );
 }
+
+Contacts.propTypes = {
+  className: PropTypes.string,
+};
+
+Contacts.defaultProps = {
+  className: '',
+};

@@ -3,7 +3,14 @@ import PropTypes from 'prop-types';
 import ReactRouterPropTypes from 'react-router-prop-types';
 import { withRouter } from 'react-router-dom';
 
-import { Container, Header, ImagePlace, Image } from './styles';
+import {
+  Container,
+  Header,
+  ImagePlace,
+  Image,
+  Highlight,
+  NoPrint,
+} from './styles';
 
 import eduardo from '~/assets/eduardo.png';
 
@@ -14,10 +21,16 @@ function DefaultLayout({ children, location: { pathname } }) {
         <ImagePlace>
           <Image src={eduardo} alt="Eduardo Santos" />
         </ImagePlace>
-        <h1>hello,</h1>
+        <NoPrint>
+          <h1>hello,</h1>
+        </NoPrint>
         <h2>
-          my name is <span>Eduardo Santos</span> and this is my{' '}
-          {pathname === '/portfolio' ? 'portfolio' : 'resume'}
+          <NoPrint>my name is </NoPrint>
+          <Highlight>Eduardo Santos</Highlight>
+          <NoPrint>
+            {' '}
+            and this is my {pathname === '/portfolio' ? 'portfolio' : 'resume'}
+          </NoPrint>
         </h2>
         {/* <p>
           <NavLink to="/">resume</NavLink> |{' '}

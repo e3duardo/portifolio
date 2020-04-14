@@ -11,7 +11,10 @@ export default createGlobalStyle`
     outline: 0;
 
     font-family: 'Fira Code', monospace;
-    text-transform: lowercase;
+
+    @media print {
+      font-family: 'Roboto', sans-serif;
+    }
   }
   *,*:before,*:after{
     box-sizing: border-box;
@@ -27,6 +30,10 @@ export default createGlobalStyle`
     background: #929292;
     line-height: 1.4rem;
     text-align: justify;
+
+    @media print {
+      background: none;
+    }
   }
 
   #root{
@@ -78,5 +85,12 @@ export default createGlobalStyle`
 
   h1,h2{
     line-height: 1.4em;
+  }
+
+
+  @media print {
+   .mylivechat_inline {
+     display: none;
+   }
   }
 `;

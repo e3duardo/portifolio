@@ -10,38 +10,44 @@ export default function Experi() {
         <Tag tag="h3">Experiences</Tag>
       </h3>
       <Experience
+        company="Deep Consulting Solutions"
+        season="Mar 2020 - today"
+        job="Software Engineer"
+      />
+      <Experience
         company="Centro de Ensino Random"
-        season="2019 - today"
+        season="Oct 2019 - today"
         job="Computing instructor"
       >
-        I started teaching, to pass some of my knowledge forward. Today I'm
+        I started teaching to pass some of my knowledge forward. Today I&apos;m
         teaching basic computer
       </Experience>
       <Experience
         company="Centro Universitário Redentor"
-        season="2015 - today"
+        season="Mar 2015 - Mar 2020"
         job="Systems Analyst"
       >
-        i started in centro universitário redentor as an it assistant in 2015.
-        and in 2016, i migrated to the development area. as a systems analyst, i
-        use java and java ee daily, and i also use a brazilian framework vraptor
-        and jsp, hibernate, mysql. in the frontend, i generally use bootstrap,
-        jquery, and various plugins. our main project is the institution's
-        portal. i also make part of the development team of a web system for the
-        small student hospital.
+        I started in Centro Universitário Redentor as an IT assistant in 2015
+        and the following year, I migrated to the development area as a systems
+        analyst. I have been using Java and Java EE on a daily basis.
+        Additionally, I use a brazilian framework vraptor and jsp, hibernate,
+        and mysql. in the front-end, i generally use bootstrap, jquery, and
+        various plugins. Our main project is the institution&apos;s portal. I
+        also form part of the development team for the web system for the
+        university clinic.
         <br />
-        in addition to growing a lot as a web developer here, i was able to
-        learn about devops, ci, data modeling, and mobile application
+        In addition to growing significantly as a web developer, I have been
+        learning about devops, ci, data modeling, and mobile application
         development with phonegap.
       </Experience>
       <Experience
         company="ViewTech"
-        season="2011 - 2015"
+        season="Jun 2011 - Dec 2015"
         job="Founding partner"
       >
-        In 2014 I opened a computer store with my brother. We grew up very fast
-        and gained a market share in our city. Next, I decided to leave the
-        store to focus again on my development career.
+        In 2011 I opened a computer store with my brother. We grew very fast and
+        gained a market share in our city. Next, I decided to leave the store to
+        focus again on my development career.
       </Experience>
       <Experience company="Autonomous" season="2008 - today" job="Freelancer">
         I started as a freelancer in 2008, developing websites and systems using
