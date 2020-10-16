@@ -10,13 +10,18 @@ export default function Experi() {
         <Tag tag="h3">Experiences</Tag>
       </h3>
       <Experience
+        company="Centro Universitário Redentor"
+        season="Jun 2020 - today"
+        job="Software Architect"
+      />
+      <Experience
         company="Deep Consulting Solutions"
-        season="Mar 2020 - today"
+        season="Mar 2020 - Jun 2020"
         job="Software Engineer"
       />
       <Experience
         company="Centro de Ensino Random"
-        season="Oct 2019 - today"
+        season="Oct 2019 - May 2020"
         job="Computing instructor"
       >
         I started teaching to pass some of my knowledge forward. Today I&apos;m
