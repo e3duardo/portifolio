@@ -1,14 +1,17 @@
 import React from 'react';
+import { useTranslation } from "react-i18next";
 
 import Tag from '~/components/Tag';
 import Progress from '~/components/Progress';
 import ProgressLegend from '~/components/ProgressLegend';
 
 export default function Skills() {
+  const { t } = useTranslation();
+
   return (
     <div>
       <h3 className="mt-3">
-        <Tag tag="h3">Skills</Tag>
+        <Tag tag="h3">{t("Skills")}</Tag>
       </h3>
       <Progress tick={94}>HTML</Progress>
       <Progress tick={90}>CSS</Progress>

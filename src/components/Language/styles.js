@@ -7,6 +7,7 @@ export const Container = styled.div`
   padding: 5px;
   margin-bottom: 10px;
   border-bottom: 1px solid #ccc;
+  cursor: pointer;
 `;
 export const Text = styled.div`
   font-size: 0.9rem;
