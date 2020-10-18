@@ -16,7 +16,7 @@ import {
 import eduardo from '~/assets/eduardo.png';
 
 function DefaultLayout({ children, location: { pathname } }) {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <Container>
