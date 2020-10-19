@@ -15,7 +15,7 @@ export default function About() {
       <Experience
         company="Caelum"
         season={`${t("Jul")} 2020`}
-        job="DEVOPS NA PRÁTICA COM CULTURA, COLABORAÇÃO, FERRAMENTAS E AUTOMATIZAÇÃO"
+        job="DevOps na prática com cultura, colaboração, ferramentas e automatização"
       />
       <Experience
         company="Udemy"
