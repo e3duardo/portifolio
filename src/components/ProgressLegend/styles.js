@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const Container = styled.div`
   position: relative;
@@ -13,7 +13,7 @@ export const Left = styled.div`
   padding-top: 12px;
   position: relative;
   :before {
-    content: ' ';
+    content: " ";
     position: absolute;
     width: 100%;
     height: 8px;

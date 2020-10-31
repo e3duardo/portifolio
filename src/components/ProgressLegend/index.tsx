@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 import { useTranslation } from "react-i18next";
 
-import { Container, Left, Right } from './styles';
+import { Container, Left, Right } from "./styles";
 
-export default function ProgressLegend() {
+function ProgressLegend() {
   const { t } = useTranslation();
 
   return (
@@ -15,3 +15,5 @@ export default function ProgressLegend() {
     </Container>
   );
 }
+
+export default ProgressLegend;

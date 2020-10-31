@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react";
 import { useTranslation } from "react-i18next";
 
-import Tag from '~/components/Tag';
-import Progress from '~/components/Progress';
-import ProgressLegend from '~/components/ProgressLegend';
+import Tag from "components/Tag";
+import Progress from "components/Progress";
+import ProgressLegend from "components/ProgressLegend";
 
-export default function Skills() {
+function Skills() {
   const { t } = useTranslation();
 
   return (
@@ -24,3 +24,5 @@ export default function Skills() {
     </div>
   );
 }
+
+export default Skills;

@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 import { useTranslation } from "react-i18next";
 
-import Tag from '~/components/Tag';
-import Experience from '~/components/Experience';
+import Tag from "components/Tag";
+import Experience from "components/Experience";
 
-export default function About() {
+function About() {
   const { t } = useTranslation();
 
   return (
@@ -35,3 +35,5 @@ export default function About() {
     </div>
   );
 }
+
+export default About;

@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ImagePlace = styled.div`
   padding: 5px 5px 1px 5px;
