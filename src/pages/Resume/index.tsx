@@ -1,7 +1,7 @@
 import React from "react";
 import ReactGA from "react-ga";
 
-import { Row, Main, Aside } from "./styles";
+import styles from "./index.module.css";
 
 import About from "./about";
 import Education from "./education";
@@ -17,19 +17,19 @@ function Resume() {
   }
 
   return (
-    <Row>
-      <Main>
+    <section className={styles.row}>
+      <main className={styles.main}>
         <About />
         <Experiences />
         <Education />
-      </Main>
-      <Aside>
+      </main>
+      <aside className={styles.aside}>
         <Skills />
         <Languages />
         <Hobbies />
         <Contacts className="contact" />
-      </Aside>
-    </Row>
+      </aside>
+    </section>
   );
 }
 

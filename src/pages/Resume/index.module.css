@@ -1,15 +1,13 @@
-import styled from "styled-components";
-
-export const Row = styled.div`
+.row {
   display: flex;
   @media screen and (max-width: 700px) {
     flex-wrap: wrap;
   }
-`;
-export const Main = styled.div`
+}
+.main {
   flex: 1;
-`;
-export const Aside = styled.div`
+}
+.aside {
   width: 30%;
   margin-left: 40px;
   display: flex;
@@ -25,4 +23,4 @@ export const Aside = styled.div`
       order: 0;
     }
   }
-`;
+}

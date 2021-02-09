@@ -14,7 +14,7 @@ const brLanguage = {
     Expert: "Bom",
     Master: "Mestre",
     Languages: "Idiomas",
-    Portuguese: "Portugês",
+    Portuguese: "Português",
     English: "Inglês",
     Hobbies: "Passatempos",
     Contact: "Contatos",
