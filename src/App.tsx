@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import ReactGA from "react-ga";
 
 import Routes from "routes";
@@ -15,12 +15,12 @@ if (process.env.NODE_ENV !== "development") {
 
 function App() {
   return (
-    <HashRouter basename="/">
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <GlobalStyle />
       <DefaultLayout>
         <Routes />
       </DefaultLayout>
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
