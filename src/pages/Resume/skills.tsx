@@ -16,11 +16,11 @@ function Skills() {
       <Progress tick={40}>Ruby</Progress>
       <Progress tick={38}>Rails</Progress>
       <Progress tick={24}>Sidekiq</Progress>
-      <Progress tick={94}>HTML</Progress>
-      <Progress tick={90}>CSS</Progress>
-      <Progress tick={69}>ES6</Progress>
-      <Progress tick={55}>React</Progress>
-      <Progress tick={85}>Java</Progress>
+      <Progress tick={85}>HTML</Progress>
+      <Progress tick={82}>CSS</Progress>
+      <Progress tick={60}>ES6</Progress>
+      <Progress tick={50}>React</Progress>
+      <Progress tick={80}>Java</Progress>
       <ProgressLegend />
     </div>
   );
