@@ -13,15 +13,80 @@ function Experiences() {
         <Tag tag="h3">{t("Experiences")}</Tag>
       </h3>
       <Experience
+        company="Impulso"
+        season={`${t("Apr")} 2021 - ${t("today")}`}
+        job={t("Ruby Developer")}
+      >
+        <p>Backend Development | Yapay/Locaweb</p>
+        <ul style={{ paddingLeft: 20 }}>
+          <li>API development</li>
+          <li>Asynchronous jobs and services</li>
+          <li>Unit and integration testing</li>
+        </ul>
+        <br />
+
+        <p>Some Technologies</p>
+        <ul style={{ paddingLeft: 20 }}>
+          <li>Ruby</li>
+          <li>Rails</li>
+          <li>Sidekiq</li>
+          <li>RSpec</li>
+          <li>VCR</li>
+          <li>Git / Git Lab</li>
+          <li>Linux</li>
+          <li>Docker</li>
+        </ul>
+      </Experience>
+      <Experience
         company="Centro Universitário Redentor"
-        season={`${t("Jun")} 2020 - ${t("today")}`}
+        season={`${t("Jun")} 2020 - ${t("Apr")} 2021`}
         job={t("Software Architect")}
-      />
+      >
+        <p>Team Leader | Fullstack Developer</p>
+        <ul style={{ paddingLeft: 20 }}>
+          <li>Web application development</li>
+          <li>Integrations between systems</li>
+          <li>Reporting</li>
+          <li>Legacy system support</li>
+        </ul>
+        <br />
+
+        <p>Some Technologies</p>
+        <ul style={{ paddingLeft: 20 }}>
+          <li>Java</li>
+          <li>Vraptor / JSP</li>
+          <li>MySQL / SQLServer</li>
+          <li>Git / GitHub</li>
+          <li>Instructure Canvas - TOTVS RM</li>
+          <li>Linux / macOS</li>
+          <li>Jenkins</li>
+          <li>React / JQuery</li>
+          <li>AWS / Digital Ocean</li>
+        </ul>
+      </Experience>
       <Experience
         company="Deep Consulting Solutions"
         season={`${t("Mar")} 2020 - ${t("Jun")} 2020`}
         job={t("Software Engineer")}
-      />
+      >
+        <p>Node/React Developer</p>
+        <ul style={{ paddingLeft: 20 }}>
+          <li>Web application development</li>
+        </ul>
+        <br />
+
+        <p>Some Technologies</p>
+        <ul style={{ paddingLeft: 20 }}>
+          <li>Node</li>
+          <li>React</li>
+          <li>Git / GitHub</li>
+          <li>Jest</li>
+          <li>Travis</li>
+          <li>AWS</li>
+          <li>Zoho</li>
+          <li>Vonage</li>
+        </ul>
+      </Experience>
       <Experience
         company="Centro de Ensino Random"
         season={`${t("Oct")} 2019 - ${t("May")} 2020`}

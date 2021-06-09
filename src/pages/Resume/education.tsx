@@ -29,9 +29,11 @@ function About() {
       />
       <Experience
         company="Centro Universitário Redentor"
-        season="2014 - 2020"
+        season="2014 - 2021"
         job={t("Bachelor of Information Systems")}
-      />
+      >
+        <i>Incomplete</i>
+      </Experience>
     </div>
   );
 }
