@@ -42,11 +42,13 @@ function DefaultLayout({
             {t(pathname === "/portfolio" ? "portfolio" : "resume")}
           </NoPrint>
         </h2>
-        <p>
-          <NavLink to="/">resume</NavLink> |{" "}
-          {/* <NavLink to="/portfolio">portfolio</NavLink> */}
-          <NavLink to="/blog">blog</NavLink>
-        </p>
+        <NoPrint>
+          <p>
+            <NavLink to="/">resume</NavLink> |{" "}
+            {/* <NavLink to="/portfolio">portfolio</NavLink> */}
+            <NavLink to="/blog">blog</NavLink>
+          </p>
+        </NoPrint>
       </Header>
       {children}
     </Container>

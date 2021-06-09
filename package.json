@@ -52,9 +52,9 @@
     "react-i18next": "^11.7.3",
     "react-perfect-scrollbar": "^1.5.8",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.0",
+    "react-scripts": "4.0.3",
     "styled-components": "^5.2.1",
-    "typescript": "^4.0.3",
+    "typescript": "^4.3.2",
     "web-vitals": "^0.2.4"
   },
   "husky": {
