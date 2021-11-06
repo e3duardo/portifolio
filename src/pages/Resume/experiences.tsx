@@ -37,6 +37,25 @@ function Experiences() {
           <li>Docker</li>
         </ul>
       </Experience>
+
+      <Experience
+        company="Linkedoor"
+        season={`${t("Aug")} 2021 - ${t("today")}`}
+        job={t("Lead Full Stack Developer")}
+      >
+        <p>Some Technologies</p>
+        <ul style={{ paddingLeft: 20 }}>
+          <li>Node.JS</li>
+          <li>React</li>
+          <li>Typescrit</li>
+          <li>Postgres</li>
+          <li>Git / Git Hub</li>
+          <li>Linux</li>
+          <li>Docker</li>
+          <li>WhatsApp API</li>
+        </ul>
+      </Experience>
+
       <Experience
         company="Centro Universitário Redentor"
         season={`${t("Jun")} 2020 - ${t("Apr")} 2021`}
