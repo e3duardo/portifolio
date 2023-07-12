@@ -6,11 +6,13 @@ export const Container = styled.div`
 `;
 
 export const Background = styled.div`
+  print-color-adjust: exact;
   -webkit-print-color-adjust: exact;
   background: #ddd;
 `;
 
-export const Foreground = styled.div`
+export const Foreground = styled.div<{tick: number}>`
+  print-color-adjust: exact;
   -webkit-print-color-adjust: exact;
   background: #ff6633;
   height: 25px;

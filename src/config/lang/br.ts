@@ -46,7 +46,7 @@ const brLanguage = {
       <0>
         Sou um desenvolvedor full-stack com vasta experiência em desenvolvimento web. Procuro me aperfeiçoar aprendendo e incorporando novas tecnologias. Tive a sorte de trabalhar ao lado vários desenvolvedores seniors e aprendi muito com eles. Desenvolvimento em Java e Java EE tem sido meu foco neste momento, mas também sou apaixonado por front-end. Eu sempre tenho qualidade do código em minha mente enquanto estou no processo de desenvolvimento.
       </0>
-      <1>        
+      <1>
         Estou trabalhando para ser um profissional renomado e confiável no mercado. Tenho experiência significativa com front-end e React. Por enquanto, eu procuro refinar e expandir meu conjunto de habilidades atuais enquanto desenvolvo minhas habilidades sociais a fim de se tornar um líder nos domínios técnico e de gestão.
       </1>
       <2>

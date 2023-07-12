@@ -1,16 +1,15 @@
-import React from "react";
-import { Switch, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 
 import Resume from "pages/Resume";
 import Portfolio from "pages/Portfolio";
 import Blog from "pages/Blog";
 
-export default function Routes() {
+export default function RoutesApp() {
   return (
-    <Switch>
-      <Route path="/" exact component={Resume} />
-      <Route path="/portfolio" exact component={Portfolio} />
-      <Route path="/blog" exact component={Blog} />
-    </Switch>
+    <Routes>
+      <Route path="/" element={<Resume />} />
+      <Route path="/portfolio" element={<Portfolio />} />
+      <Route path="/blog" element={<Blog />} />
+    </Routes>
   );
 }

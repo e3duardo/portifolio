@@ -1,9 +1,9 @@
-import React from "react";
+import { ReactNode } from "react";
 
 import { Container, ImagePlace, Image, Text } from "./styles";
 
 interface ContactProps {
-  children: React.ReactNode;
+  children: ReactNode;
   icon: string;
   link: string;
 }

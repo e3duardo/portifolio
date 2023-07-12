@@ -1,14 +1,14 @@
-import React from "react";
+import { ReactNode } from "react";
 
 import { Span } from "./styles";
 
 interface TagProps {
-  children: React.ReactNode;
+  children: ReactNode;
   tag: string;
   close?: string;
 }
 
-function Tag({ children, tag, close }: TagProps) {
+function Tag({ children, tag, close = "" }: TagProps) {
   return (
     <>
       <Span>{!close ? `<${tag}>` : tag}</Span>
@@ -17,9 +17,5 @@ function Tag({ children, tag, close }: TagProps) {
     </>
   );
 }
-
-Tag.defaultProps = {
-  close: "",
-};
 
 export default Tag;

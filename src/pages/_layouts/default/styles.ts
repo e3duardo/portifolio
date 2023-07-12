@@ -86,5 +86,4 @@ export const Image = styled.img`
     rgba(157, 157, 157, 1) 0%,
     rgba(146, 146, 146, 1) 100%
   );
-  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.26); */
 `;

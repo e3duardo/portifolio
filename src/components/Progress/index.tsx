@@ -1,9 +1,9 @@
-import React from "react";
+import { ReactNode } from "react";
 
 import { Container, Background, Foreground, Text } from "./styles";
 
 interface ProgressProps {
-  children: React.ReactNode;
+  children: ReactNode;
   tick: number; // 1 - 100
 }
 

@@ -1,4 +1,3 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
 
 import Tag from "components/Tag";
@@ -13,8 +12,35 @@ function Experiences() {
         <Tag tag="h3">{t("Experiences")}</Tag>
       </h3>
       <Experience
+        company="Globo"
+        season={`${t("May")} 2022 - ${t("today")}`}
+        job={t("SRE")}
+      >
+        <p>Site Reliability Engineer</p>
+        <ul style={{ paddingLeft: 20 }}>
+          <li>SRE education</li>
+          <li>Software development</li>
+          <li>Asynchronous jobs and services</li>
+          <li>Microservices</li>
+        </ul>
+        <br />
+
+        <p>Some Technologies</p>
+        <ul style={{ paddingLeft: 20 }}>
+          <li>Go</li>
+          <li>React</li>
+          <li>GCP</li>
+          <li>React</li>
+          <li>Git / Git Lab</li>
+          <li>macOS</li>
+          <li>Docker</li>
+          <li>Kubernetes</li>
+        </ul>
+      </Experience>
+
+      <Experience
         company="Impulso"
-        season={`${t("Apr")} 2021 - ${t("today")}`}
+        season={`${t("Apr")} 2021 - ${t("May")} 2022`}
         job={t("Ruby Developer")}
       >
         <p>Backend Development | Yapay/Locaweb</p>
@@ -40,7 +66,7 @@ function Experiences() {
 
       <Experience
         company="Linkedoor"
-        season={`${t("Aug")} 2021 - ${t("today")}`}
+        season={`${t("Aug")} 2021 - ${t("Jan")} 2022`}
         job={t("Lead Full Stack Developer")}
       >
         <p>Some Technologies</p>
@@ -112,7 +138,7 @@ function Experiences() {
         job={t("Computing Instructor")}
       >
         {t(
-          "I started teaching to pass some of my knowledge forward. Today I'm teaching basic computer"
+          "I started teaching to pass some of my knowledge forward. Today I'm teaching basic computer",
         )}
       </Experience>
       <Experience
@@ -121,11 +147,11 @@ function Experiences() {
         job={t("Systems Analyst")}
       >
         {t(
-          "I started in Centro Universitário Redentor as an IT assistant in 2015 and the following year, I migrated to the development area as a systems analyst. I have been using Java and Java EE on a daily basis. Additionally, I use a brazilian framework vraptor and jsp, hibernate, and mysql. in the front-end, i generally use bootstrap, jquery, and various plugins. Our main project is the institution's portal. I also form part of the development team for the web system for the university clinic."
+          "I started in Centro Universitário Redentor as an IT assistant in 2015 and the following year, I migrated to the development area as a systems analyst. I have been using Java and Java EE on a daily basis. Additionally, I use a brazilian framework vraptor and jsp, hibernate, and mysql. in the front-end, i generally use bootstrap, jquery, and various plugins. Our main project is the institution's portal. I also form part of the development team for the web system for the university clinic.",
         )}
         <br />
         {t(
-          "In addition to growing significantly as a web developer, I have been learning about devops, ci, data modeling, and mobile application development with phonegap."
+          "In addition to growing significantly as a web developer, I have been learning about devops, ci, data modeling, and mobile application development with phonegap.",
         )}
       </Experience>
       <Experience
@@ -134,7 +160,7 @@ function Experiences() {
         job={t("Founding Partner")}
       >
         {t(
-          "In 2011 I opened a computer store with my brother. We grew very fast and gained a market share in our city. Next, I decided to leave the store to focus again on my development career."
+          "In 2011 I opened a computer store with my brother. We grew very fast and gained a market share in our city. Next, I decided to leave the store to focus again on my development career.",
         )}
       </Experience>
       <Experience
@@ -143,11 +169,11 @@ function Experiences() {
         job="Freelancer"
       >
         {t(
-          "I started as a freelancer in 2008, developing websites and systems using technologies like PHP and C#. Later, I continued with PHP (sometimes WordPress) and started using Ruby on Rails and Jekyll in some projects. By now, my focus is ReactJS development, generally in adjunct with NodeJs API."
+          "I started as a freelancer in 2008, developing websites and systems using technologies like PHP and C#. Later, I continued with PHP (sometimes WordPress) and started using Ruby on Rails and Jekyll in some projects. By now, my focus is ReactJS development, generally in adjunct with NodeJs API.",
         )}
         <br />
         {t(
-          "In this walk, I learned a lot about website creation, website optimization, continuous integration and everything needed to create excellent websites easily and quickly."
+          "In this walk, I learned a lot about website creation, website optimization, continuous integration and everything needed to create excellent websites easily and quickly.",
         )}
       </Experience>
     </div>

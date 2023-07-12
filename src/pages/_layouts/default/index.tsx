@@ -1,6 +1,5 @@
-import React from "react";
-import { withRouter, NavLink } from "react-router-dom";
-import { RouteComponentProps } from "react-router";
+import { ReactNode } from "react";
+import { NavLink, useLocation } from "react-router-dom";
 
 import { useTranslation } from "react-i18next";
 
@@ -15,14 +14,12 @@ import {
 
 import assets from "assets";
 
-interface DefaultLayoutProps extends RouteComponentProps<any> {
-  children: React.ReactNode;
+interface DefaultLayoutProps {
+  children: ReactNode;
 }
 
-function DefaultLayout({
-  children,
-  location: { pathname },
-}: DefaultLayoutProps) {
+function DefaultLayout({ children }: DefaultLayoutProps) {
+  const { pathname } = useLocation();
   const { t } = useTranslation();
 
   return (
@@ -55,4 +52,4 @@ function DefaultLayout({
   );
 }
 
-export default withRouter(DefaultLayout);
+export default DefaultLayout;

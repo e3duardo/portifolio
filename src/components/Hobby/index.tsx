@@ -1,13 +1,14 @@
-import React from "react";
+import { ReactNode } from "react";
 
 import { Container } from "./styles";
 
-interface HobbieProps {
-  children: React.ReactNode;
+interface HobbyProps {
+  children: ReactNode;
   icon: string;
 }
+
 // TODO: i18n at I like bellow
-function Hobbie({ children, icon }: HobbieProps) {
+function Hobby({ children, icon }: HobbyProps) {
   return (
     <Container>
       {icon && <img src={icon} alt="I like" />}
@@ -16,4 +17,4 @@ function Hobbie({ children, icon }: HobbieProps) {
   );
 }
 
-export default Hobbie;
+export default Hobby;

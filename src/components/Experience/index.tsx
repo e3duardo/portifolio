@@ -1,9 +1,9 @@
-import React from "react";
+import { ReactNode } from "react";
 
 import { Container, Company, Description, Title } from "./styles";
 
 interface ExperienceProps {
-  children?: React.ReactNode;
+  children?: ReactNode;
   company: string;
   season: string;
   job: string;

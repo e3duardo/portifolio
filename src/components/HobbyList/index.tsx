@@ -2,12 +2,12 @@ import { ReactNode } from "react";
 
 import { Container } from "./styles";
 
-interface ContactListProps {
+interface HobbyListProps {
   children: ReactNode;
 }
 
-function ContactList({ children }: ContactListProps) {
+function HobbyList({ children }: HobbyListProps) {
   return <Container>{children}</Container>;
 }
 
-export default ContactList;
+export default HobbyList;

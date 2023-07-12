@@ -1,4 +1,3 @@
-import React from "react";
 import ReactGA from "react-ga";
 
 import styles from "./index.module.css";
