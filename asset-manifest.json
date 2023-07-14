@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.be3ac648.css",
-    "main.js": "/static/js/main.22bf380b.js",
+    "main.css": "/static/css/main.13ae9d25.css",
+    "main.js": "/static/js/main.6f3e3ea7.js",
     "static/media/eduardo.png": "/static/media/eduardo.03943c485e8f9eaa215a.png",
     "static/media/eduardo-santos.svg": "/static/media/eduardo-santos.607955e6207a0aeb4c3fb692266c1424.svg",
+    "static/media/person-breastfeeding-duotone.svg": "/static/media/person-breastfeeding-duotone.65a8f615ab154af5e525ab4519960380.svg",
     "index.html": "/index.html",
     "static/media/github-square-brands.svg": "/static/media/github-square-brands.831eee67ed4ff40d783f0d512cfa7724.svg",
     "static/media/grin-hearts-duotone.svg": "/static/media/grin-hearts-duotone.a956970106d4611c1c26a6b43997c17f.svg",
@@ -18,11 +19,11 @@
     "static/media/star-regular.svg": "/static/media/star-regular.991b06d493a8414571256a35b46cd42c.svg",
     "static/media/heart-solid.svg": "/static/media/heart-solid.ccbd58d411f4fa9a7e2a3be1e600938f.svg",
     "static/media/star-solid.svg": "/static/media/star-solid.217df55b57281a2b4e908c76de67f919.svg",
-    "main.be3ac648.css.map": "/static/css/main.be3ac648.css.map",
-    "main.22bf380b.js.map": "/static/js/main.22bf380b.js.map"
+    "main.13ae9d25.css.map": "/static/css/main.13ae9d25.css.map",
+    "main.6f3e3ea7.js.map": "/static/js/main.6f3e3ea7.js.map"
   },
   "entrypoints": [
-    "static/css/main.be3ac648.css",
-    "static/js/main.22bf380b.js"
+    "static/css/main.13ae9d25.css",
+    "static/js/main.6f3e3ea7.js"
   ]
 }
