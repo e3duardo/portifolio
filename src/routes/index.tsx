@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 
-import Resume from "pages/Resume";
-import Portfolio from "pages/Portfolio";
-import Blog from "pages/Blog";
+import Resume from "pages/resume";
+import Portfolio from "pages/portfolio";
+import Blog from "pages/blog";
 
 export default function RoutesApp() {
   return (

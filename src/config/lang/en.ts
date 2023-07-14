@@ -20,7 +20,7 @@ const enLanguage = {
     Contact: "Contact",
     Family: "Family",
     Dog: "Dog",
-    Programing: "Programing",
+    Programming: "Programming",
     Motorcycle: "Motorcycle",
     Travel: "Travel",
     Music: "Music",

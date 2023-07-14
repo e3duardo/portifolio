@@ -85,11 +85,4 @@ export default createGlobalStyle`
   h1,h2{
     line-height: 1.4em;
   }
-
-
-  @media print {
-   .mylivechat_inline {
-     display: none;
-   }
-  }
 `;

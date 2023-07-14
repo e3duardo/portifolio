@@ -30,7 +30,7 @@ function Experiences() {
           <li>Go</li>
           <li>React</li>
           <li>GCP</li>
-          <li>React</li>
+          <li>React / TypeScript</li>
           <li>Git / Git Lab</li>
           <li>macOS</li>
           <li>Docker</li>
@@ -73,7 +73,7 @@ function Experiences() {
         <ul style={{ paddingLeft: 20 }}>
           <li>Node.JS</li>
           <li>React</li>
-          <li>Typescrit</li>
+          <li>TypeScript</li>
           <li>Postgres</li>
           <li>Git / Git Hub</li>
           <li>Linux</li>

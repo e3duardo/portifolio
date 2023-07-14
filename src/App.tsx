@@ -2,7 +2,7 @@ import { BrowserRouter } from "react-router-dom";
 import ReactGA from "react-ga";
 
 import Routes from "routes";
-import DefaultLayout from "pages/_layouts/default";
+import DefaultLayout from "layouts/default";
 
 import GlobalStyle from "styles/global";
 

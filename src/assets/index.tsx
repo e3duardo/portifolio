@@ -13,6 +13,7 @@ import grinHeartsDuotone from "assets/grin-hearts-duotone.svg";
 import heartsSolid from "assets/heart-solid.svg";
 import githubSquareBrands from "assets/github-square-brands.svg";
 import envelopeOpenTextDuotone from "assets/envelope-open-text-duotone.svg";
+import personBreastfeedingDuotone from "assets/person-breastfeeding-duotone.svg";
 
 const exports = {
   picture: {
@@ -28,6 +29,7 @@ const exports = {
     headphonesAlt: headphonesAltDuotone,
     grinHearts: grinHeartsDuotone,
     envelopeOpenText: envelopeOpenTextDuotone,
+    personBreastfeeding: personBreastfeedingDuotone,
   },
   solid: {
     star: starSolid,

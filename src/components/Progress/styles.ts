@@ -11,7 +11,7 @@ export const Background = styled.div`
   background: #ddd;
 `;
 
-export const Foreground = styled.div<{tick: number}>`
+export const Foreground = styled.div<{ tick: number }>`
   print-color-adjust: exact;
   -webkit-print-color-adjust: exact;
   background: #ff6633;

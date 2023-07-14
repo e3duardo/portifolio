@@ -20,7 +20,7 @@ const brLanguage = {
     Contact: "Contatos",
     Family: "Família",
     Dog: "Branquinha",
-    Programing: "Programar",
+    Programming: "Programar",
     Motorcycle: "Motos",
     Travel: "Viagens",
     Music: "Música",
